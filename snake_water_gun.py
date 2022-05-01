@@ -4,7 +4,7 @@ from secrets import choice
 list=["snake","water","gun"]
 choice=random.choice(list)
 #yourchoice=int(input("1 for snake 2 for water and 3 for gun"))
-yourchoice="water"
+yourchoice=input("Enter your choise").lower()
 print("computer choice is:", choice)
 print("your choice is :", yourchoice)
 
